@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="draftsState">
+      <draftsState>
+        <option name="requests">
+          <list>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;mariso&quot;,&#10;  &quot;email&quot;: &quot;mariso@gmail.com&quot;,&#10;  &quot;password&quot;: &quot; JNWIDNFWDNCOI&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="16154110-8e52-4cee-8d46-fbdcdfeafc9f" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:4000/auth/register" />
+            </requestState>
+          </list>
+        </option>
+      </draftsState>
+    </option>
+    <option name="id" value="c766e3ab-56d3-41c4-aa7a-6add29500f2a" />
+    <option name="version" value="6" />
+  </component>
+</project>
