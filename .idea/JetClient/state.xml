@@ -8,7 +8,7 @@
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;mariso&quot;,&#10;  &quot;email&quot;: &quot;mariso@gmail.com&quot;,&#10;  &quot;password&quot;: &quot; JNWIDNFWDNCOI&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;handle&quot;: &quot;asdfasd&quot;,&#10;  &quot;name&quot;: &quot;&quot;,&#10;  &quot;email&quot;: &quot;Guillermosaxxx@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345567890&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -20,6 +20,78 @@
           </list>
         </option>
       </draftsState>
+    </option>
+    <option name="folders">
+      <list>
+        <folderState>
+          <option name="apis">
+            <list>
+              <integrationProperties>
+                <option name="name" value="API" />
+              </integrationProperties>
+            </list>
+          </option>
+          <option name="environmentGroups">
+            <list>
+              <environmentGroupState>
+                <option name="name" value="Default" />
+              </environmentGroupState>
+            </list>
+          </option>
+          <option name="folders">
+            <list>
+              <folderState>
+                <option name="id" value="654d6aea-452f-496b-8037-213277ced702" />
+                <option name="name" value="Usuarios" />
+                <option name="requests">
+                  <list>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="raw" value="{&#10;  &quot;handle&quot;: &quot;Negrito1234&quot;,&#10;  &quot;name&quot;: &quot;Cristian&quot;,&#10;  &quot;email&quot;: &quot;ramirezsath@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345678&quot;&#10;}" />
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="id" value="588a7ba2-11c3-4dfd-87fe-00786259356c" />
+                      <option name="method" value="POST" />
+                      <option name="name" value="user" />
+                      <option name="sortWeight" value="1000000" />
+                      <option name="url" value="http://localhost:4000/auth/register" />
+                    </requestState>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="raw" value="{&#10;  &quot;email&quot;: &quot;ramirezsath@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345678&quot;&#10;}" />
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="id" value="554d7893-c481-4440-be75-963fcfc2a855" />
+                      <option name="method" value="POST" />
+                      <option name="name" value="Login" />
+                      <option name="sortWeight" value="2000000" />
+                      <option name="url" value="http://localhost:4000/auth/login" />
+                    </requestState>
+                  </list>
+                </option>
+                <option name="sortWeight" value="1000000" />
+              </folderState>
+            </list>
+          </option>
+          <option name="id" value="5eeff2ca-b2ad-4893-a717-481dae18579d" />
+          <option name="name" value="DevTree " />
+          <option name="selectedEnvironmentIds">
+            <map>
+              <entry key="default" />
+            </map>
+          </option>
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="autoSync" value="true" />
+              <option name="folderPath" value="C:\Users\ramir\WebstormProjects\AREACT\.jetclient" />
+            </synchronizationPropertiesState>
+          </option>
+        </folderState>
+      </list>
     </option>
     <option name="id" value="c766e3ab-56d3-41c4-aa7a-6add29500f2a" />
     <option name="version" value="6" />

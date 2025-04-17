@@ -48,9 +48,6 @@ export const login = async (req: Request, res: Response):Promise<any> => {
         //De esta manera recupero el mensaje de error que genere previamente
         return res.status(404).json({error : error.message});
     }
-
-
-
 //Comprobar contracena correcta
 const isPasswordCorrect = await checkpassword(password, user.password)
     if (!isPasswordCorrect){

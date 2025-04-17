@@ -4,13 +4,13 @@
     <option name="requestHistoryStates">
       <list>
         <requestHistoryState>
-          <option name="dateTime" value="1743800498924" />
-          <option name="id" value="2d520be3-8c83-4e4b-b44b-6e502d4b01aa" />
+          <option name="dateTime" value="1744339496534" />
+          <option name="id" value="6a08c8ac-8381-479b-a135-bca71dbfa35b" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;juan&quot;,&#10;  &quot;email&quot;: &quot;pepepepepepe@shbcsc&quot;,&#10;  &quot;password&quot;: &quot; JNWIDNFWDNCOI&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Sathiel&quot;,&#10;  &quot;email&quot;: &quot;Cristian@gmail.com&quot;,&#10;  &quot;password&quot;: &quot; JNWIDNFWDNCOI&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -22,11 +22,11 @@
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="VXN1YXJpbyBjcmVhZG8=" />
-              <option name="bodyString" value="Usuario creado" />
-              <option name="code" value="200" />
-              <option name="connectionEstablishingTime" value="35" />
-              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6IlVzZXIgYWxyZWFkeSBleGlzdHMifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: &quot;User already exists&quot;&#10;}" />
+              <option name="code" value="409" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="application/json; charset=utf-8" />
               <option name="headers">
                 <list>
                   <headerState>
@@ -35,19 +35,19 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Type" />
-                    <option name="value" value="text/html; charset=utf-8" />
+                    <option name="value" value="application/json; charset=utf-8" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
-                    <option name="value" value="14" />
+                    <option name="value" value="31" />
                   </headerState>
                   <headerState>
                     <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;e-mKO1KVxqay8z9Vrnw7Nl8vZadZg&quot;" />
+                    <option name="value" value="W/&quot;1f-lFUySNKwX3L5eGEwGcNcUoVKWhE&quot;" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Fri, 04 Apr 2025 21:01:38 GMT" />
+                    <option name="value" value="Fri, 11 Apr 2025 02:44:56 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Connection" />
@@ -59,25 +59,24 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="2d520be3-8c83-4e4b-b44b-6e502d4b01aa" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="HTML" />
-              <option name="previewType" value="HTML" />
-              <option name="rawBodyString" value="Usuario creado" />
-              <option name="size" value="14" />
-              <option name="time" value="892" />
+              <option name="id" value="6a08c8ac-8381-479b-a135-bca71dbfa35b" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;User already exists&quot;}" />
+              <option name="size" value="31" />
+              <option name="time" value="1309" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1743801317979" />
-          <option name="id" value="ea32eff0-edf6-4c89-af8d-47ece1cb8bbc" />
+          <option name="dateTime" value="1744339506358" />
+          <option name="id" value="4ac9a131-3792-4d1f-a3b1-55d8364038df" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;juan&quot;,&#10;  &quot;email&quot;: &quot;pepepepepepe@shbcsc&quot;,&#10;  &quot;password&quot;: &quot; JNWIDNFWDNCOI&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Sathiel&quot;,&#10;  &quot;email&quot;: &quot;Sathiel@gmail.com&quot;,&#10;  &quot;password&quot;: &quot; JNWIDNFWDNCOI&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -91,7 +90,275 @@
             <responseState>
               <option name="bodyBytesBase64" value="VXN1YXJpbyBjcmVhZG8gY29ycmVjdGFtZW50ZQ==" />
               <option name="bodyString" value="Usuario creado correctamente" />
-              <option name="code" value="200" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="28" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;1c-dWKEslEtVBpiVawairWMPmFLIiA&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 11 Apr 2025 02:45:06 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="4ac9a131-3792-4d1f-a3b1-55d8364038df" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="Usuario creado correctamente" />
+              <option name="size" value="28" />
+              <option name="time" value="1132" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744339563068" />
+          <option name="id" value="971714bf-eb26-4db3-89e3-809499483fc1" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Sathiel&quot;,&#10;  &quot;email&quot;: &quot;Shxathiel@gmail.com&quot;,&#10;  &quot;password&quot;: &quot; JNWIDNFWDNCOI&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="16154110-8e52-4cee-8d46-fbdcdfeafc9f" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:4000/auth/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="VXN1YXJpbyBjcmVhZG8gY29ycmVjdGFtZW50ZQ==" />
+              <option name="bodyString" value="Usuario creado correctamente" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="28" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;1c-dWKEslEtVBpiVawairWMPmFLIiA&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 11 Apr 2025 02:46:03 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="971714bf-eb26-4db3-89e3-809499483fc1" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="Usuario creado correctamente" />
+              <option name="size" value="28" />
+              <option name="time" value="5138" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744339619161" />
+          <option name="id" value="d5482263-d45a-49f7-b78b-c5c17ef52b84" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Sathiel&quot;,&#10;  &quot;email&quot;: &quot;Shxkjbaxathiel@gmail.com&quot;,&#10;  &quot;password&quot;: &quot; JNWIDNFWDNCOI&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="16154110-8e52-4cee-8d46-fbdcdfeafc9f" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:4000/auth/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="VXN1YXJpbyBjcmVhZG8gY29ycmVjdGFtZW50ZQ==" />
+              <option name="bodyString" value="Usuario creado correctamente" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="28" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;1c-dWKEslEtVBpiVawairWMPmFLIiA&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 11 Apr 2025 02:46:59 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="d5482263-d45a-49f7-b78b-c5c17ef52b84" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="Usuario creado correctamente" />
+              <option name="size" value="28" />
+              <option name="time" value="1309" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744416935965" />
+          <option name="id" value="94ce3e75-9c8a-4d2b-8b68-c48d38e8db0a" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Sathiel&quot;,&#10;  &quot;email&quot;: &quot;Shxkjbaxasxcokd@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;loijsodicjsodijcosidjc&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="16154110-8e52-4cee-8d46-fbdcdfeafc9f" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:4000/auth/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="VXN1YXJpbyBjcmVhZG8gY29ycmVjdGFtZW50ZQ==" />
+              <option name="bodyString" value="Usuario creado correctamente" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="189" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="28" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;1c-dWKEslEtVBpiVawairWMPmFLIiA&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 12 Apr 2025 00:15:35 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="94ce3e75-9c8a-4d2b-8b68-c48d38e8db0a" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="Usuario creado correctamente" />
+              <option name="size" value="28" />
+              <option name="time" value="1024" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744417047310" />
+          <option name="id" value="12c6595e-2e28-4f53-ac6f-bd420f408ced" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Guillermo&quot;,&#10;  &quot;email&quot;: &quot;Guillermo@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345567890&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="16154110-8e52-4cee-8d46-fbdcdfeafc9f" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:4000/auth/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="VXN1YXJpbyBjcmVhZG8gY29ycmVjdGFtZW50ZQ==" />
+              <option name="bodyString" value="Usuario creado correctamente" />
+              <option name="code" value="201" />
               <option name="connectionEstablishingTime" value="4" />
               <option name="contentType" value="text/html; charset=utf-8" />
               <option name="headers">
@@ -114,7 +381,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Fri, 04 Apr 2025 21:15:17 GMT" />
+                    <option name="value" value="Sat, 12 Apr 2025 00:17:27 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Connection" />
@@ -126,25 +393,25 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="ea32eff0-edf6-4c89-af8d-47ece1cb8bbc" />
-              <option name="message" value="OK" />
+              <option name="id" value="12c6595e-2e28-4f53-ac6f-bd420f408ced" />
+              <option name="message" value="Created" />
               <option name="prettyResponseType" value="HTML" />
               <option name="previewType" value="HTML" />
               <option name="rawBodyString" value="Usuario creado correctamente" />
               <option name="size" value="28" />
-              <option name="time" value="258" />
+              <option name="time" value="492" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1744035465365" />
-          <option name="id" value="b65e212a-52e4-4358-bad1-63ce0263093a" />
+          <option name="dateTime" value="1744489417987" />
+          <option name="id" value="52191a30-0956-4c95-b987-76eb2cb61f5b" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;juan&quot;,&#10;  &quot;email&quot;: &quot;mariso@gmail.com&quot;,&#10;  &quot;password&quot;: &quot; JNWIDNFWDNCOI&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;handle&quot;: &quot;memoM Memote&quot;,&#10;  &quot;name&quot;: &quot;Guillermoaaa &quot;,&#10;  &quot;email&quot;: &quot;Guillermosa@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345567890&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -159,7 +426,7 @@
               <option name="bodyBytesBase64" value="VXN1YXJpbyBjcmVhZG8gY29ycmVjdGFtZW50ZQ==" />
               <option name="bodyString" value="Usuario creado correctamente" />
               <option name="code" value="201" />
-              <option name="connectionEstablishingTime" value="155" />
+              <option name="connectionEstablishingTime" value="4" />
               <option name="contentType" value="text/html; charset=utf-8" />
               <option name="headers">
                 <list>
@@ -181,7 +448,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Mon, 07 Apr 2025 14:17:45 GMT" />
+                    <option name="value" value="Sat, 12 Apr 2025 20:23:37 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Connection" />
@@ -193,25 +460,25 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="b65e212a-52e4-4358-bad1-63ce0263093a" />
+              <option name="id" value="52191a30-0956-4c95-b987-76eb2cb61f5b" />
               <option name="message" value="Created" />
               <option name="prettyResponseType" value="HTML" />
               <option name="previewType" value="HTML" />
               <option name="rawBodyString" value="Usuario creado correctamente" />
               <option name="size" value="28" />
-              <option name="time" value="1244" />
+              <option name="time" value="746" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1744035477313" />
-          <option name="id" value="27c68e78-08ec-4584-91dc-d99fa45ee1b8" />
+          <option name="dateTime" value="1744491425180" />
+          <option name="id" value="44d4fc80-480a-4c66-8c43-fb3a78a5f9e2" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;mariso&quot;,&#10;  &quot;email&quot;: &quot;mariso@gmail.com&quot;,&#10;  &quot;password&quot;: &quot; JNWIDNFWDNCOI&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;handle&quot;: &quot;&quot;,&#10;  &quot;name&quot;: &quot;Guillermoaaa  &quot;,&#10;  &quot;email&quot;: &quot;Guillermosax@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345567890&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -223,9 +490,546 @@
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJlcnJvciI6IlVzZXIgYWxyZWFkeSBleGlzdHMifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;error&quot;: &quot;User already exists&quot;&#10;}" />
+              <option name="bodyBytesBase64" value="eyJlcnJvcnMiOlt7InR5cGUiOiJmaWVsZCIsInZhbHVlIjoiIiwibXNnIjoiRWwgaGFuZGxlIG5vIHB1ZWRlIGlyIHZhY2lvIiwicGF0aCI6ImhhbmRsZSIsImxvY2F0aW9uIjoiYm9keSJ9XX0=" />
+              <option name="bodyString" value="{&#10;  &quot;errors&quot;: [&#10;    {&#10;      &quot;type&quot;: &quot;field&quot;,&#10;      &quot;value&quot;: &quot;&quot;,&#10;      &quot;msg&quot;: &quot;El handle no puede ir vacio&quot;,&#10;      &quot;path&quot;: &quot;handle&quot;,&#10;      &quot;location&quot;: &quot;body&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="400" />
+              <option name="connectionEstablishingTime" value="4" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="110" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;6e-sVHizF9tHvqT8Z2JhJoIhLzvz6Y&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 12 Apr 2025 20:57:05 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="44d4fc80-480a-4c66-8c43-fb3a78a5f9e2" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;errors&quot;:[{&quot;type&quot;:&quot;field&quot;,&quot;value&quot;:&quot;&quot;,&quot;msg&quot;:&quot;El handle no puede ir vacio&quot;,&quot;path&quot;:&quot;handle&quot;,&quot;location&quot;:&quot;body&quot;}]}" />
+              <option name="size" value="110" />
+              <option name="time" value="61" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744491438236" />
+          <option name="id" value="97a99880-96f0-4a32-98fa-1c2258fd5cb1" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;handle&quot;: &quot;Mmmm&quot;,&#10;  &quot;name&quot;: &quot;Guillermoaaa  &quot;,&#10;  &quot;email&quot;: &quot;Guillermosax@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345567890&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="16154110-8e52-4cee-8d46-fbdcdfeafc9f" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:4000/auth/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="VXN1YXJpbyBjcmVhZG8gY29ycmVjdGFtZW50ZQ==" />
+              <option name="bodyString" value="Usuario creado correctamente" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="28" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;1c-dWKEslEtVBpiVawairWMPmFLIiA&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 12 Apr 2025 20:57:18 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="97a99880-96f0-4a32-98fa-1c2258fd5cb1" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="Usuario creado correctamente" />
+              <option name="size" value="28" />
+              <option name="time" value="776" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744491564824" />
+          <option name="id" value="6e20de41-9555-4fb6-8447-a845d55b862f" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;handle&quot;: &quot;asdfasd&quot;,&#10;  &quot;name&quot;: &quot;&quot;,&#10;  &quot;email&quot;: &quot;Guillermosaxxx@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345567890&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="16154110-8e52-4cee-8d46-fbdcdfeafc9f" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:4000/auth/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvcnMiOlt7InR5cGUiOiJmaWVsZCIsInZhbHVlIjoiIiwibXNnIjoiRWwgTm9tYnJlIE5vIFB1ZWRlIGlyIHZhY2lvICIsInBhdGgiOiJuYW1lIiwibG9jYXRpb24iOiJib2R5In1dfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;errors&quot;: [&#10;    {&#10;      &quot;type&quot;: &quot;field&quot;,&#10;      &quot;value&quot;: &quot;&quot;,&#10;      &quot;msg&quot;: &quot;El Nombre No Puede ir vacio &quot;,&#10;      &quot;path&quot;: &quot;name&quot;,&#10;      &quot;location&quot;: &quot;body&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="400" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="109" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;6d-OcuGip1t2yg4VQuHHKET4xyDQPQ&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 12 Apr 2025 20:59:24 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6e20de41-9555-4fb6-8447-a845d55b862f" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;errors&quot;:[{&quot;type&quot;:&quot;field&quot;,&quot;value&quot;:&quot;&quot;,&quot;msg&quot;:&quot;El Nombre No Puede ir vacio &quot;,&quot;path&quot;:&quot;name&quot;,&quot;location&quot;:&quot;body&quot;}]}" />
+              <option name="size" value="109" />
+              <option name="time" value="56" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744497180572" />
+          <option name="id" value="b9e1ced4-3697-4825-ab98-76c5791ea643" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;handle&quot;: &quot;Pepinito01&quot;,&#10;  &quot;name&quot;: &quot;Cristian&quot;,&#10;  &quot;email&quot;: &quot;ramirezasth@gmial.com&quot;,&#10;  &quot;password&quot;: &quot;12345678&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="588a7ba2-11c3-4dfd-87fe-00786259356c" />
+              <option name="method" value="POST" />
+              <option name="name" value="user" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:4000/auth/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="VXN1YXJpbyBjcmVhZG8gY29ycmVjdGFtZW50ZQ==" />
+              <option name="bodyString" value="Usuario creado correctamente" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="28" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;1c-dWKEslEtVBpiVawairWMPmFLIiA&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 12 Apr 2025 22:33:00 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b9e1ced4-3697-4825-ab98-76c5791ea643" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="Usuario creado correctamente" />
+              <option name="size" value="28" />
+              <option name="time" value="660" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="5eeff2ca-b2ad-4893-a717-481dae18579d" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744497349024" />
+          <option name="id" value="704315b0-b345-45e4-8c07-d1f054ed9070" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;handle&quot;: &quot;Pepinito01&quot;,&#10;  &quot;name&quot;: &quot;Cristian&quot;,&#10;  &quot;email&quot;: &quot;ramirezasth@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345678&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="588a7ba2-11c3-4dfd-87fe-00786259356c" />
+              <option name="method" value="POST" />
+              <option name="name" value="user" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:4000/auth/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="VXN1YXJpbyBjcmVhZG8gY29ycmVjdGFtZW50ZQ==" />
+              <option name="bodyString" value="Usuario creado correctamente" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="28" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;1c-dWKEslEtVBpiVawairWMPmFLIiA&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 12 Apr 2025 22:35:49 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="704315b0-b345-45e4-8c07-d1f054ed9070" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="Usuario creado correctamente" />
+              <option name="size" value="28" />
+              <option name="time" value="790" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="5eeff2ca-b2ad-4893-a717-481dae18579d" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744497450552" />
+          <option name="id" value="f878cefb-2ae4-4a08-b6cc-15d77c88ca3a" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;handle&quot;: &quot;Pepinito01&quot;,&#10;  &quot;name&quot;: &quot;Cristian&quot;,&#10;  &quot;email&quot;: &quot;ramirezasth@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345678&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="588a7ba2-11c3-4dfd-87fe-00786259356c" />
+              <option name="method" value="POST" />
+              <option name="name" value="user" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:4000/auth/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6IkVtYWlsIHByZXZpYW1lbnRlIHJlZ2lzdHJhZG8ifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: &quot;Email previamente registrado&quot;&#10;}" />
               <option name="code" value="409" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="40" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;28-TU+zLQPveh7SUXricc8CvV62NGo&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 12 Apr 2025 22:37:30 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="f878cefb-2ae4-4a08-b6cc-15d77c88ca3a" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;Email previamente registrado&quot;}" />
+              <option name="size" value="40" />
+              <option name="time" value="166" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="5eeff2ca-b2ad-4893-a717-481dae18579d" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744497503154" />
+          <option name="id" value="44f787fa-3d10-4a5b-8460-32e9b88c7d3a" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;ramirezsath@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345678&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="554d7893-c481-4440-be75-963fcfc2a855" />
+              <option name="method" value="POST" />
+              <option name="name" value="Login" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:4000/auth/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6IkVsIHVzdWFyaW8gbm8gZXN0YSByZWdpc3RyYWRvIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: &quot;El usuario no esta registrado&quot;&#10;}" />
+              <option name="code" value="404" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="41" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;29-4u3UzzO/KDDsTlcO1buv6CY+W9Q&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 12 Apr 2025 22:38:23 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="44f787fa-3d10-4a5b-8460-32e9b88c7d3a" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;El usuario no esta registrado&quot;}" />
+              <option name="size" value="41" />
+              <option name="time" value="573" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="5eeff2ca-b2ad-4893-a717-481dae18579d" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744505658479" />
+          <option name="id" value="9b422c5e-ad9c-4fab-ab8c-a1e148d1c01d" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;ramirezasth1@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345678&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="554d7893-c481-4440-be75-963fcfc2a855" />
+              <option name="method" value="POST" />
+              <option name="name" value="Login" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:4000/auth/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6IkVsIHVzdWFyaW8gbm8gZXN0YSByZWdpc3RyYWRvIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: &quot;El usuario no esta registrado&quot;&#10;}" />
+              <option name="code" value="404" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="41" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;29-4u3UzzO/KDDsTlcO1buv6CY+W9Q&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 13 Apr 2025 00:54:18 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9b422c5e-ad9c-4fab-ab8c-a1e148d1c01d" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;El usuario no esta registrado&quot;}" />
+              <option name="size" value="41" />
+              <option name="time" value="269" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="5eeff2ca-b2ad-4893-a717-481dae18579d" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744505674146" />
+          <option name="id" value="953e296f-5a54-45fb-a702-7efc2b31e470" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;ramirezasth@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345678&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="554d7893-c481-4440-be75-963fcfc2a855" />
+              <option name="method" value="POST" />
+              <option name="name" value="Login" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:4000/auth/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6IlBhc3N3b3JkIGluY29ycmVjdGEifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: &quot;Password incorrecta&quot;&#10;}" />
+              <option name="code" value="401" />
               <option name="connectionEstablishingTime" value="2" />
               <option name="contentType" value="application/json; charset=utf-8" />
               <option name="headers">
@@ -244,11 +1048,11 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;1f-lFUySNKwX3L5eGEwGcNcUoVKWhE&quot;" />
+                    <option name="value" value="W/&quot;1f-tFbEz69d7CxZPqUEw4DaPWj0+Fo&quot;" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Mon, 07 Apr 2025 14:17:57 GMT" />
+                    <option name="value" value="Sun, 13 Apr 2025 00:54:34 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Connection" />
@@ -260,15 +1064,554 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="27c68e78-08ec-4584-91dc-d99fa45ee1b8" />
-              <option name="message" value="Conflict" />
+              <option name="id" value="953e296f-5a54-45fb-a702-7efc2b31e470" />
+              <option name="message" value="Unauthorized" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;error&quot;:&quot;User already exists&quot;}" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;Password incorrecta&quot;}" />
               <option name="size" value="31" />
-              <option name="time" value="219" />
+              <option name="time" value="316" />
             </responseState>
           </option>
-          <option name="workspaceId" value="drafts" />
+          <option name="workspaceId" value="5eeff2ca-b2ad-4893-a717-481dae18579d" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744505701719" />
+          <option name="id" value="b6b23763-3a9a-496b-afee-dc6210d0f0e9" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;handle&quot;: &quot;Negrito1234&quot;,&#10;  &quot;name&quot;: &quot;Cristian&quot;,&#10;  &quot;email&quot;: &quot;ramirezsath@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345678&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="588a7ba2-11c3-4dfd-87fe-00786259356c" />
+              <option name="method" value="POST" />
+              <option name="name" value="user" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:4000/auth/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="VXN1YXJpbyBjcmVhZG8gY29ycmVjdGFtZW50ZQ==" />
+              <option name="bodyString" value="Usuario creado correctamente" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="4" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="28" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;1c-dWKEslEtVBpiVawairWMPmFLIiA&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 13 Apr 2025 00:55:01 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b6b23763-3a9a-496b-afee-dc6210d0f0e9" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="Usuario creado correctamente" />
+              <option name="size" value="28" />
+              <option name="time" value="669" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="5eeff2ca-b2ad-4893-a717-481dae18579d" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744505735354" />
+          <option name="id" value="99778eed-7f1e-4e6b-a5bf-b0a15891512a" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;ramirezsath@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345678&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="554d7893-c481-4440-be75-963fcfc2a855" />
+              <option name="method" value="POST" />
+              <option name="name" value="Login" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:4000/auth/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6IlBhc3N3b3JkIGluY29ycmVjdGEifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: &quot;Password incorrecta&quot;&#10;}" />
+              <option name="code" value="401" />
+              <option name="connectionEstablishingTime" value="4" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="31" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;1f-tFbEz69d7CxZPqUEw4DaPWj0+Fo&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 13 Apr 2025 00:55:35 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="99778eed-7f1e-4e6b-a5bf-b0a15891512a" />
+              <option name="message" value="Unauthorized" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;Password incorrecta&quot;}" />
+              <option name="size" value="31" />
+              <option name="time" value="424" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="5eeff2ca-b2ad-4893-a717-481dae18579d" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744505757351" />
+          <option name="id" value="8e3bee6e-b4a5-469f-b862-373c9909bb62" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;ramirezsath@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345678&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="554d7893-c481-4440-be75-963fcfc2a855" />
+              <option name="method" value="POST" />
+              <option name="name" value="Login" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:4000/auth/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6IlBhc3N3b3JkIGluY29ycmVjdGEifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: &quot;Password incorrecta&quot;&#10;}" />
+              <option name="code" value="401" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="31" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;1f-tFbEz69d7CxZPqUEw4DaPWj0+Fo&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 13 Apr 2025 00:55:57 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="8e3bee6e-b4a5-469f-b862-373c9909bb62" />
+              <option name="message" value="Unauthorized" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;Password incorrecta&quot;}" />
+              <option name="size" value="31" />
+              <option name="time" value="480" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="5eeff2ca-b2ad-4893-a717-481dae18579d" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744505781935" />
+          <option name="id" value="f6cbec71-91f4-4fa8-9655-bfa8f553c556" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;ramirezsath@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345678&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="554d7893-c481-4440-be75-963fcfc2a855" />
+              <option name="method" value="POST" />
+              <option name="name" value="Login" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:4000/auth/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6IlBhc3N3b3JkIGluY29ycmVjdGEifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: &quot;Password incorrecta&quot;&#10;}" />
+              <option name="code" value="401" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="31" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;1f-tFbEz69d7CxZPqUEw4DaPWj0+Fo&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 13 Apr 2025 00:56:21 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="f6cbec71-91f4-4fa8-9655-bfa8f553c556" />
+              <option name="message" value="Unauthorized" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;Password incorrecta&quot;}" />
+              <option name="size" value="31" />
+              <option name="time" value="1366" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="5eeff2ca-b2ad-4893-a717-481dae18579d" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744505853098" />
+          <option name="id" value="767d9a1f-f076-486e-8672-21491ab93429" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;ramirezsath@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345678&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="554d7893-c481-4440-be75-963fcfc2a855" />
+              <option name="method" value="POST" />
+              <option name="name" value="Login" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:4000/auth/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="VXN1YXJpbyBsb2d1ZWFkbyBjb3JyZWN0YW1lbnRl" />
+              <option name="bodyString" value="Usuario logueado correctamente" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="30" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;1e-OoL3ZSbJutvx4f4iVAiWTF9cqQQ&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 13 Apr 2025 00:57:33 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="767d9a1f-f076-486e-8672-21491ab93429" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="Usuario logueado correctamente" />
+              <option name="size" value="30" />
+              <option name="time" value="2707" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="5eeff2ca-b2ad-4893-a717-481dae18579d" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744505861387" />
+          <option name="id" value="1d67e516-44aa-4214-9796-2593fb90da7d" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;ramirezsath@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345670&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="554d7893-c481-4440-be75-963fcfc2a855" />
+              <option name="method" value="POST" />
+              <option name="name" value="Login" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:4000/auth/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6IlBhc3N3b3JkIGluY29ycmVjdGEifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: &quot;Password incorrecta&quot;&#10;}" />
+              <option name="code" value="401" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="31" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;1f-tFbEz69d7CxZPqUEw4DaPWj0+Fo&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 13 Apr 2025 00:57:41 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1d67e516-44aa-4214-9796-2593fb90da7d" />
+              <option name="message" value="Unauthorized" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;Password incorrecta&quot;}" />
+              <option name="size" value="31" />
+              <option name="time" value="408" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="5eeff2ca-b2ad-4893-a717-481dae18579d" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744600835865" />
+          <option name="id" value="cd466720-c270-4a3b-a17f-c13215e88228" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;ramirezsath@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345670&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="554d7893-c481-4440-be75-963fcfc2a855" />
+              <option name="method" value="POST" />
+              <option name="name" value="Login" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:4000/auth/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6IlBhc3N3b3JkIGluY29ycmVjdGEifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: &quot;Password incorrecta&quot;&#10;}" />
+              <option name="code" value="401" />
+              <option name="connectionEstablishingTime" value="211" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="31" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;1f-tFbEz69d7CxZPqUEw4DaPWj0+Fo&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 14 Apr 2025 03:20:35 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="cd466720-c270-4a3b-a17f-c13215e88228" />
+              <option name="message" value="Unauthorized" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;Password incorrecta&quot;}" />
+              <option name="size" value="31" />
+              <option name="time" value="1316" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="5eeff2ca-b2ad-4893-a717-481dae18579d" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1744600844618" />
+          <option name="id" value="a091c715-fc3a-4c7f-9cab-44d34c04b524" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;ramirezsath@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345678&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="554d7893-c481-4440-be75-963fcfc2a855" />
+              <option name="method" value="POST" />
+              <option name="name" value="Login" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:4000/auth/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="VXN1YXJpbyBsb2d1ZWFkbyBjb3JyZWN0YW1lbnRl" />
+              <option name="bodyString" value="Usuario logueado correctamente" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="30" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;1e-OoL3ZSbJutvx4f4iVAiWTF9cqQQ&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 14 Apr 2025 03:20:44 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="a091c715-fc3a-4c7f-9cab-44d34c04b524" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="Usuario logueado correctamente" />
+              <option name="size" value="30" />
+              <option name="time" value="1943" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="5eeff2ca-b2ad-4893-a717-481dae18579d" />
         </requestHistoryState>
       </list>
     </option>
